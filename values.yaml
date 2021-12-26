@@ -1,0 +1,15 @@
+#service:
+#  port: 5432
+#  targetPort: 5432
+##name: example
+#
+deployment:
+#  containerName: pgdb
+#  repo: postgres
+#  tag: "12.1"
+  replicaCount: 1
+#  mountPath: /var/lib/postgresql/data
+#env:
+#  nodeEnv: development
+#username:
+#password:
